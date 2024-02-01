@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 1em 2em;
+  border-bottom: solid 1px #e0e0e0;
+}
+
+.header > a {
+  color: rgb(81, 81, 81);
+  text-decoration: none;
+}
+
+.path {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 1.2em;
+  color: #b4b4b4;
+}
