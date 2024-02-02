@@ -1,7 +1,6 @@
 {
   "name": "user-client",
   "version": "0.1.0",
-  "homepage": "https://philip-clark.github.io/blog-api-user-client",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -27,7 +26,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "serve build -s -n -L -p $PORT"
+    "start": "serve build -s --cache=-1 -n -L -p $PORT"
   },
   "eslintConfig": {
     "extends": [
