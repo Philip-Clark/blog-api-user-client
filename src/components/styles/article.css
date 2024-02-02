@@ -24,3 +24,8 @@
   padding: 0;
   margin: 0;
 }
+
+.ql-container.ql-bubble {
+  font-size: 1em;
+  border: none;
+}
