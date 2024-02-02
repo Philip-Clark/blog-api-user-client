@@ -26,7 +26,7 @@ export default function Header({ LoggedIn }) {
 
   return (
     <div className="header">
-      <Link to={'/'}>
+      <Link to={'/blog-api-user-client/'}>
         <h1> ✏️ Bloggy</h1>
       </Link>
 
